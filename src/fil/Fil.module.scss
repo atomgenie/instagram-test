@@ -1,0 +1,13 @@
+.fil {
+    $height: calc(100vh - 120px);
+
+    height: $height;
+    position: absolute;
+    max-height: 100vh;
+    overflow-y: scroll;
+    width: calc(100% - 20px);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 65px 10px 80px 10px;
+}
