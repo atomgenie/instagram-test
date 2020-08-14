@@ -80,7 +80,7 @@ const Card: React.FC<props> = ({ picture }) => {
         }
 
         set({
-            x: active ? mx : 0,
+            x: active ? (isLike ? mx + 50 : mx) : 0,
             y: active ? (absMx * absMx) / coefDiv : 0,
         })
     })
